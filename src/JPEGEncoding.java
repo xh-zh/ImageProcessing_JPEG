@@ -98,7 +98,7 @@ public class JPEGEncoding {
 			Buff.flush();
 			Buff.close();
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 	}
 	

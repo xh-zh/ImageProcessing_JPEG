@@ -20,7 +20,7 @@ public class Quatization {
 		for(int i=0; i<8; i++)
 			for(int j=0; j<8; j++)
 				p[i][j] = (int) Math.round(pic[i][j]/qY[i][j]);
-		return p;
+		return p; 
 	}
 	
 	public static int[][] quatizeUV(double[][] pic){

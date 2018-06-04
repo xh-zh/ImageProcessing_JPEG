@@ -35,7 +35,7 @@ public class PreEncoding {
 				win[i] = Quatization.quatizeUV(win_tmp[i]);
 				
 		}
-		return win;
+		return win; 
 	}
 	
 

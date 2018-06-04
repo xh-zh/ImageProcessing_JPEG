@@ -1,7 +1,7 @@
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.RealMatrix;
 
-public class DCT {
+public class DCT { 
 	/**
 	 * DCT的第一步是将矩阵各数字-128
 	 * DCT处理的矩阵都是8*8的

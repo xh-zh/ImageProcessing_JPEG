@@ -15,7 +15,7 @@ public class PicRead {
 		File f = new File("./" + picName);
 		if(!f.exists()) {
 			System.out.println("[INFO] Image does not exist!");
-			return;
+			return; 
 		}
 		BufferedImage bi = null;
 		try {

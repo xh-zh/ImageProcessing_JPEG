@@ -381,7 +381,7 @@ class ACTable{
 	
 	/**
 	 * @param codeWord
-	 * @return 没找到则返回-1
+	 * @return 没找到则返回-1 
 	 */
 	public Point getRunSize(String codeWord) {
 		for(int i=0; i<this.codeWord.size(); i++) {
