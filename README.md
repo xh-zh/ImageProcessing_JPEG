@@ -1,18 +1,18 @@
 # ImageProcessing
 
-##Dependencies
+## Dependencies
 
 [ujmp-complete.jar ](https://github.com/ujmp/universal-java-matrix-package/releases/download/0.3.0/ujmp-complete-0.3.0.jar)
 
 
 
-#JPEG图像压缩算法流程详解
+# JPEG图像压缩算法流程详解
 
 JPEG代表**J**oint **P**hotographic **E**xperts **G**roup（联合图像专家小组）。此团队创立于1986年，1992年发布了JPEG的标准而在1994年获得了ISO10918-1的认定。 
 
 JPEG是一种有损压缩。
 
-##色彩空间转换
+## 色彩空间转换
 
 图片由`RGB`色彩空间转换到`YUV`色彩空间，转换关系如下
 $$
@@ -35,7 +35,7 @@ $$
 
 DCT变换是对$8*8$的子块进行处理的，且`U,V`分量在$2*2$的单元中采样一次，故在DCT变换之前将原图像长宽分别用0补齐到16的倍数。之后再对`Y,U,V`三个分量分别分为$8*8$的块便进行后续操作。
 
-##离散余弦变换 
+## 离散余弦变换 
 
 离散余弦变化的公式为
 $$
